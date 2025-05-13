@@ -1,4 +1,5 @@
 //your JS code here. If required.
+window.addEventListener("DOMContentLoaded", function () {
 const form = document.getElementById("book-form");
 const titleInput = document.getElementById("title");
 const authorInput = document.getElementById("author");
@@ -37,6 +38,7 @@ const row  = document.createElement("tr"); //create row
 const deleteButton = row.querySelector(".delete");
 deleteButton.addEventListener("click", function(){
 	row.remove();
+});
 	});
 });
 
